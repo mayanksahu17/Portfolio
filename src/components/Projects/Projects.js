@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import appwrite from "../../Assets/Projects/appwrite.png";
+import suvidha from "../../Assets/Projects/suvidha.png";
+import BMR from "../../Assets/Projects/BMR.png";
+import printovert from "../../Assets/Projects/printovert.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -22,17 +22,47 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
          
-{/* 
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={appwrite}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="A Blog application"
+              description="My personal blog applicaton  where you can share your thoughts and ideas."
+              ghLink="https://github.com/mayanksahu17/appWriteBlog"
+              demoLink="https://app-write-blog.vercel.app/"
             />
-          </Col> */}
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={printovert}
+              isBlog={false}
+              title="A E-commerce application"
+              description="A e-commerce plateform where users can design thier product and purchase it seamlessly"
+              ghLink="https://github.com/mayanksahu17/PRINTOVERT"
+              demoLink="https://printovert.vercel.app"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={suvidha}
+              isBlog={false}
+              title="Suvidha oversease"
+              description="A e-commerce plateform where users can design thier product and purchase it seamlessly"
+              ghLink="https://github.com/mayanksahu17/Suvidha-foundation"
+              demoLink="https://app-write-blog.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={BMR}
+              isBlog={false}
+              title="BMR Calculator"
+              description="A e-commerce plateform where users can design thier product and purchase it seamlessly"
+              ghLink="https://github.com/mayanksahu17/BMR-calculator-"
+              demoLink="https://bmr-calculator-indol.vercel.app/"
+            />
+          </Col>
 
    
 
