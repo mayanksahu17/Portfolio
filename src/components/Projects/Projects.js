@@ -50,7 +50,7 @@ function Projects() {
               title="Suvidha oversease"
               description="A e-commerce plateform where users can design thier product and purchase it seamlessly"
               ghLink="https://github.com/mayanksahu17/Suvidha-foundation"
-              demoLink="https://app-write-blog.vercel.app/"
+              demoLink="https://suvidha-foundation-lime.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
