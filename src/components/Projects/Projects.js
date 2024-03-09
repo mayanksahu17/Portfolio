@@ -48,7 +48,7 @@ function Projects() {
               imgPath={suvidha}
               isBlog={false}
               title="Suvidha oversease"
-              description="A e-commerce plateform where users can design thier product and purchase it seamlessly"
+              description="A Internship project based on html css, bootstrap and js for opening the orgnaisation for all over the world  "
               ghLink="https://github.com/mayanksahu17/Suvidha-foundation"
               demoLink="https://suvidha-foundation-lime.vercel.app/"
             />
@@ -58,7 +58,7 @@ function Projects() {
               imgPath={BMR}
               isBlog={false}
               title="BMR Calculator"
-              description="A e-commerce plateform where users can design thier product and purchase it seamlessly"
+              description="A Basal metabolic Rate calculator for  men and women. who are more conciuos about their diet"
               ghLink="https://github.com/mayanksahu17/BMR-calculator-"
               demoLink="https://bmr-calculator-indol.vercel.app/"
             />
