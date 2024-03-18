@@ -8,6 +8,7 @@ import suvidha from "../../Assets/Projects/suvidha.png";
 import BMR from "../../Assets/Projects/BMR.png";
 import printovert from "../../Assets/Projects/printovert.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import gm from '../../Assets/Projects/gm.png'
 
 function Projects() {
   return (
@@ -61,6 +62,16 @@ function Projects() {
               description="A Basal metabolic Rate calculator for  men and women. who are more conciuos about their diet"
               ghLink="https://github.com/mayanksahu17/BMR-calculator-"
               demoLink="https://bmr-calculator-indol.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gm}
+              isBlog={false}
+              title="AI assistant"
+              description="An AI assistant app built on nextjs with  google gemini"
+              ghLink="https://github.com/mayanksahu17/X-AI"
+              demoLink="https://x-ai-ten.vercel.app/"
             />
           </Col>
 
