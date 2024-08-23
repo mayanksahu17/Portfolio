@@ -97,7 +97,7 @@ function Projects() {
               title="AI assistant"
               description="A petiton plateform where fans of a youtuber wants to unban his youtube account"
               ghLink="https://github.com/mayanksahu17/X-AI"
-              demoLink="https:signforsteve.com"
+              demoLink="https://signforsteve.com"
             />
           </Col>
 
