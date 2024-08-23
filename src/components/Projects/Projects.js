@@ -9,6 +9,8 @@ import BMR from "../../Assets/Projects/BMR.png";
 import printovert from "../../Assets/Projects/printovert.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import gm from '../../Assets/Projects/gm.png'
+import steve from '../../Assets/Projects/steve.png'
+import scrims from '../../Assets/Projects/scrims.png'
 
 function Projects() {
   return (
@@ -64,6 +66,7 @@ function Projects() {
               demoLink="https://bmr-calculator-indol.vercel.app/"
             />
           </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={gm}
@@ -72,6 +75,29 @@ function Projects() {
               description="An AI assistant app built on nextjs with  google gemini"
               ghLink="https://github.com/mayanksahu17/X-AI"
               demoLink="https://x-ai-ten.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={scrims}
+              isBlog={false}
+              title="AI assistant"
+              description="Developed a entire User authentication system and maintained production grade codeLinkImplemented the complex player management system for gamers to monetise their skills"
+              ghLink="https://github.com/mayanksahu17/X-AI"
+              demoLink="https://scrims-crown-pdks.vercel.app/"
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={steve}
+              isBlog={false}
+              title="AI assistant"
+              description="A petiton plateform where fans of a youtuber wants to unban his youtube account"
+              ghLink="https://github.com/mayanksahu17/X-AI"
+              demoLink="https:signforsteve.com"
             />
           </Col>
 
