@@ -13,7 +13,7 @@ function AboutCard() {
             <br />
             I am currently pursing Bachelors of Thechnology in Shree Vaishnav Vidhyapeeth Vishwavidhyalaya.
             <br />
-            I have completed 1st Year at 
+            I have completed 3rd Year at 
             Shree Vaishnav Vidhyapeeth Vishwavidhyalaya.
             <br />
             <br />
