@@ -14,6 +14,8 @@ import scrims from '../../Assets/Projects/scrims.png';
 import adapt from '../../Assets/Projects/adapt.png'; // Placeholder image
 import echio from '../../Assets/Projects/echio.png'; // Placeholder image
 import tambez from '../../Assets/Projects/tambez.png'; // Placeholder image
+import kollege from '../../Assets/Projects/kollege.jpg'; // Placeholder image
+import hire from '../../Assets/Projects/hire.jpg'; // Placeholder image
 // import wowcoach from '../../Assets/Projects/wowcoach.png'; // Placeholder image
 
 function Projects() {
@@ -35,6 +37,26 @@ function Projects() {
               title="Adapt"
               description="Developed from wireframes, design, landing page, to backend, admin panel, and server deployment."
               demoLink="https://adaptwellness.in/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={kollege}
+              isBlog={false}
+              title="Kollege"
+              description="A Educational management system "
+              ghLink="https://github.com/sahuashish940/TSMS-API"
+              demoLink="https://kollege.onrender.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hire}
+              isBlog={false}
+              title="Hiredeasy"
+              description="A plateform that provide Interview services"
+              ghLink="https://github.com/mayanksahu17"
+              demoLink="https://revamp-dashboard-seven.vercel.app/"
             />
           </Col>
 
@@ -61,16 +83,7 @@ function Projects() {
       
 
           {/* Existing Projects */}
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={appwrite}
-              isBlog={false}
-              title="A Blog application"
-              description="My personal blog application where you can share your thoughts and ideas."
-              ghLink="https://github.com/mayanksahu17/appWriteBlog"
-              demoLink="https://app-write-blog.vercel.app/"
-            />
-          </Col>
+       
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -79,7 +92,7 @@ function Projects() {
               title="A E-commerce application"
               description="An e-commerce platform where users can design their product and purchase it seamlessly."
               ghLink="https://github.com/mayanksahu17/PRINTOVERT"
-              demoLink="https://printovert.vercel.app"
+              demoLink="https://printovert-frontend.vercel.app/"
             />
           </Col>
 
@@ -94,17 +107,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={gm}
-              isBlog={false}
-              title="AI assistant"
-              description="An AI assistant app built on Next.js with Google Gemini."
-              ghLink="https://github.com/mayanksahu17/X-AI"
-              demoLink="https://x-ai-ten.vercel.app/"
-            />
-          </Col>
-
+         
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={scrims}
@@ -126,6 +129,30 @@ function Projects() {
               demoLink="https://signforsteve.com"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={appwrite}
+              isBlog={false}
+              title="A Blog application"
+              description="My personal blog application where you can share your thoughts and ideas."
+              ghLink="https://github.com/mayanksahu17/appWriteBlog"
+              demoLink="https://app-write-blog.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gm}
+              isBlog={false}
+              title="AI assistant"
+              description="An AI assistant app built on Next.js with Google Gemini."
+              ghLink="https://github.com/mayanksahu17/X-AI"
+              demoLink="https://x-ai-ten.vercel.app/"
+            />
+          </Col>
+
+         
+
         </Row>
       </Container>
     </Container>
