@@ -85,7 +85,7 @@ function Projects() {
           {/* Existing Projects */}
        
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={printovert}
               isBlog={false}
@@ -94,7 +94,7 @@ function Projects() {
               ghLink="https://github.com/mayanksahu17/PRINTOVERT"
               demoLink="https://printovert-frontend.vercel.app/"
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -129,7 +129,7 @@ function Projects() {
               demoLink="https://signforsteve.com"
             />
           </Col>
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={appwrite}
               isBlog={false}
@@ -149,7 +149,7 @@ function Projects() {
               ghLink="https://github.com/mayanksahu17/X-AI"
               demoLink="https://x-ai-ten.vercel.app/"
             />
-          </Col>
+          </Col> */}
 
          
 
